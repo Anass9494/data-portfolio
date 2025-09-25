@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anass9494/data-portfolio/blob/main/analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anass9494/data-portfolio/blob/main/01_best_selling_products/analysis.ipynb)
 
 # 01 – Best-Selling Products (Python + Pandas + Matplotlib)
 
