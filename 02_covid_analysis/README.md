@@ -1,29 +1,19 @@
-# 02 - COVID-19 Data Analysis (Python + Pandas + Matplotlib)
+# 02 - COVID-19 Data Analysis
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anass9494/data-portfolio/blob/main/02_covid_analysis/analysis_covid.ipynb)
 
-**Goal:** Explore global COVID-19 data to identify trends in cases, deaths, and vaccinations.  
-**Dataset:** Our World in Data – [COVID-19 Dataset](https://ourworldindata.org/covid-deaths)  
-**Tools:** Python, Pandas, Matplotlib, Seaborn  
-
----
+**Goal:** Explore COVID-19 data from [Our World in Data](https://ourworldindata.org/coronavirus).  
+**Tools:** Python, Pandas, Matplotlib, Seaborn
 
 ## Methodology
-1. Load COVID-19 dataset (CSV).  
-2. Clean columns, handle missing values.  
-3. Group data by country and by date.  
-4. Visualize trends and compare countries.  
-
----
+1. Load dataset directly from OWID (with fallback options).
+2. Clean and select key columns.
+3. Aggregate daily new cases globally.
+4. Visualize results with line and bar charts.
 
 ## How to run
-### Google Colab
-Click the badge above to run the notebook online.  
-
-### Local environment
-```bash
-git clone https://github.com/Anass9494/data-portfolio.git
-cd data-portfolio/02_covid_analysis
-pip install -r ../requirements.txt
-jupyter notebook analysis_covid.ipynb
-```
+- Open the notebook in Google Colab using the badge above.
+- Or run locally with Python:  
+  ```bash
+  python analysis_covid.py
+  ```
