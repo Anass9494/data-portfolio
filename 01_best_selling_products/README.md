@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anass9494/data-portfolio/blob/main/analysis.ipynb)
+
 # 01 – Best-Selling Products (Python + Pandas + Matplotlib)
 
 **Goal:** Identify the best-selling products from a sales dataset.  
